@@ -3,9 +3,7 @@
 var clientFromConnectionString = require('azure-iot-device-mqtt').clientFromConnectionString;
 var Message = require('azure-iot-device').Message;
 
-// Copy the IoT Hub Device Connect string - Primary key from IoT Hub > Device Explorer> {DEVICE} > > Shared access policy > Connect string - Primary key
-// var connectionString = 'HostName={Hostname};DeviceId=myFirstNodeDevice;SharedAccessKey={Primary key}';
-var connectionString = 'Your IoT Device Web001 Connect String Goes Here;
+var connectionString = 'YOUR IOT HUB DEVICE myFirstNodeDEvice CREDENTIALS GOES HERE';
 
 var client = clientFromConnectionString(connectionString);
 

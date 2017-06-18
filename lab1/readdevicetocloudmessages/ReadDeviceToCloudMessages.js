@@ -2,9 +2,7 @@
 
 var EventHubClient = require('azure-event-hubs').Client;
 
-// Copy the IoT Hub Connect string - Primary key from IoT Hub > Shared access policy > iothubowner > Connect string - Primary key
-// var connectionString = 'HostName={Hostname};SharedAccessKeyName=iothubowner;SharedAccessKey={Primary key}';
-var connectionString = 'Your IoT Hub COnnect String Goes Here';
+var connectionString = 'YOUR IOT HUB CREDENTIALS FOR IOTHUBOWNER GO HERE';
 
 var printError = function (err) {
   console.log(err.message);
