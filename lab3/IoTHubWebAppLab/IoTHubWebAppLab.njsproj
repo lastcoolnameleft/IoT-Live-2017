@@ -34,7 +34,6 @@
     <Compile Include="public\javascripts\index.js" />
     <Compile Include="public\javascripts\jquery-2.1.4.min.js" />
     <Compile Include="server.js" />
-    <None Include="kstroker-hackster-01 - Web Deploy.pubxml" />
     <Content Include="public\index.html" />
     <Content Include="public\stylesheets\style.css" />
     <Content Include="Web.config" />

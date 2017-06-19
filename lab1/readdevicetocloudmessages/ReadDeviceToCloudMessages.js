@@ -2,7 +2,7 @@
 
 var EventHubClient = require('azure-event-hubs').Client;
 
-var connectionString = 'YOUR IOT HUB CREDENTIALS FOR IOTHUBOWNER GO HERE';
+var connectionString = 'Your IoT Hub Connect String Goes Here';
 
 var printError = function (err) {
   console.log(err.message);
